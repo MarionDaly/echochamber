@@ -32,7 +32,7 @@
         return (string) "view/404.php";
       }
     }
-    // Take a string and explore to an array.
+    // Take a string and explode to an array.
     protected function explodeURL (string $key) {
       $url = explode( "/", $key);
       return (array) $url;
